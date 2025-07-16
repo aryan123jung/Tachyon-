@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="lightBlack">#333333</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lailac">#B9BBC7</color>
+    <color name="lightPurple">#686E83</color>
+    <color name="darkPurple">#212D75</color>
+    <color name="buleGreen">#235f7f</color>
+    <color name="accentColor">#CB00BCD4</color>
+</resources>

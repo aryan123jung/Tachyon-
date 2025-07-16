@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "531223240121",
+    "project_id": "kokoro-9c7c2",
+    "storage_bucket": "kokoro-9c7c2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531223240121:android:26998497ff4915d651ea68",
+        "android_client_info": {
+          "package_name": "com.example.kokoro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT4dycg28lrx7DJwP1KneYIIzoiRTv1eg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
