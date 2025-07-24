@@ -9,7 +9,7 @@ import android.widget.ImageView
 import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.Tachyon.R
+import com.example.tachyon.R
 import com.example.tachyon.model.StoryModel
 import com.example.tachyon.ui.activity.UpdateStoryActivity
 import com.squareup.picasso.Callback

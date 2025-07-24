@@ -10,6 +10,7 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.Tachyon.R
 import com.example.Tachyon.databinding.ActivityBookBinding
 import com.example.tachyon.viewModel.BookViewModel
 import com.example.tachyon.adapter.BookAdapter

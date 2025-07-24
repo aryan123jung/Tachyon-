@@ -8,10 +8,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.Tachyon.R
-import com.example.Tachyon.databinding.ActivityAddBookBinding
-//import com.example.kokoro.R
-//import com.example.kokoro.databinding.ActivityAddBookBinding
+import com.example.tachyon.R
+import com.example.tachyon.databinding.ActivityAddBookBinding
 import com.example.tachyon.model.BookModel
 import com.example.tachyon.repository.BookRepositoryImpl
 import com.example.tachyon.utils.ImageUtils

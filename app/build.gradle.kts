@@ -8,11 +8,11 @@ android {
     buildFeatures{
         viewBinding= true
     }
-    namespace = "com.example.Tachyon"
+    namespace = "com.example.tachyon"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.Tachyon"
+        applicationId = "com.example.tachyon"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
