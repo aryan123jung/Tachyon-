@@ -1,4 +1,4 @@
-package com.example.kokoro.ui.activity
+package com.example.tachyon.ui.activity
 
 import android.net.Uri
 import android.os.Bundle
@@ -9,11 +9,10 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.Tachyon.R
 import com.example.Tachyon.databinding.ActivityUpdateStoryBinding
-//import com.example.kokoro.R
-//import com.example.kokoro.databinding.ActivityUpdateStoryBinding
-import com.example.kokoro.repository.StoryRepositoryImpl
+
 import com.example.kokoro.utils.ImageUtils
 import com.example.kokoro.viewModel.StoryViewModel
+import com.example.tachyon.repository.StoryRepositoryImpl
 import com.squareup.picasso.Picasso
 
 class UpdateStoryActivity : AppCompatActivity() {
