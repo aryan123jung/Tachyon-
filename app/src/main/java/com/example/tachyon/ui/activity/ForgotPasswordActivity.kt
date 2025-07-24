@@ -7,8 +7,9 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.Tachyon.R
-import com.example.Tachyon.databinding.ActivityForgotPasswordBinding
+import com.example.tachyon.R
+import com.example.tachyon.databinding.ActivityForgotPasswordBinding
+
 import com.example.tachyon.utils.LoadingUtils
 import com.example.tachyon.viewModel.UserViewModel
 import com.example.tachyon.repository.UserRepositoryImpl

@@ -8,8 +8,9 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.Tachyon.R
-import com.example.Tachyon.databinding.ActivityAddStoryBinding
+import com.example.tachyon.R
+import com.example.tachyon.databinding.ActivityAddStoryBinding
+
 
 import com.example.tachyon.utils.ImageUtils
 import com.example.tachyon.utils.LoadingUtils

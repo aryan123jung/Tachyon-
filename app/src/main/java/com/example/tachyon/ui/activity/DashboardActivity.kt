@@ -10,11 +10,10 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.Tachyon.R
-import com.example.Tachyon.databinding.ActivityDashboardBinding
-//import com.example.kokoro.R
+import com.example.tachyon.R
+
 import com.example.tachyon.adapter.StoryAdapter
-//import com.example.kokoro.databinding.ActivityDashboardBinding
+import com.example.tachyon.databinding.ActivityDashboardBinding
 import com.example.tachyon.repository.StoryRepositoryImpl
 import com.example.tachyon.viewModel.StoryViewModel
 
