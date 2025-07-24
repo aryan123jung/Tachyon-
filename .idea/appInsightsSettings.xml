@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.example.tachyon" />
+                  <option name="mobileSdkAppId" value="1:673166964159:android:f58e255db89a5f540a1d0a" />
+                  <option name="projectId" value="tachyonapp-e9851" />
+                  <option name="projectNumber" value="673166964159" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
