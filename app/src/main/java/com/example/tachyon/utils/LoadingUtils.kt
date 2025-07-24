@@ -3,7 +3,7 @@ package com.example.tachyon.utils
 
 import android.app.Activity
 import android.app.AlertDialog
-import com.example.Tachyon.R
+import com.example.tachyon.R
 
 class LoadingUtils(val activity: Activity) {
     lateinit var altertDialog: AlertDialog
