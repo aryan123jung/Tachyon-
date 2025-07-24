@@ -1,4 +1,4 @@
-package com.example.kokoro.model
+package com.example.tachyon.model
 
 import android.os.Parcel
 import android.os.Parcelable

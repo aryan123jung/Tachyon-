@@ -1,4 +1,4 @@
-package com.example.kokoro.repository
+package com.example.tachyon.repository
 
 interface AuthRepo {
     fun login(email:String, password:String,

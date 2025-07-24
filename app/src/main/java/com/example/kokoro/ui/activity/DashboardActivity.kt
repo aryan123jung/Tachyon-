@@ -1,4 +1,4 @@
-package com.example.kokoro.ui.activity
+package com.example.tachyon.ui.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -14,11 +14,15 @@ import androidx.fragment.app.FragmentTransaction
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.kokoro.R
+import com.example.Tachyon.R
+import com.example.Tachyon.databinding.ActivityDashboardBinding
+//import com.example.kokoro.R
 import com.example.kokoro.adapter.StoryAdapter
-import com.example.kokoro.databinding.ActivityDashboardBinding
+//import com.example.kokoro.databinding.ActivityDashboardBinding
 import com.example.kokoro.repository.StoryRepositoryImpl
 import com.example.kokoro.viewModel.StoryViewModel
+import com.example.tachyon.adapter.StoryAdapter
+import com.example.tachyon.repository.StoryRepositoryImpl
 
 class DashboardActivity : AppCompatActivity() {
 

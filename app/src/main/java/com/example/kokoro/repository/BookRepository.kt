@@ -1,8 +1,8 @@
-package com.example.kokoro.repository
+package com.example.tachyon.repository
 
 import android.content.Context
 import android.net.Uri
-import com.example.kokoro.model.BookModel
+import com.example.tachyon.model.BookModel
 
 interface BookRepository {
     fun addBook(bookModel: BookModel,

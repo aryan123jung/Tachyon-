@@ -1,4 +1,4 @@
-package com.example.kokoro.ui.activity
+package com.example.tachyon.ui.activity
 
 import android.net.Uri
 import android.os.Bundle
@@ -8,8 +8,10 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.kokoro.R
-import com.example.kokoro.databinding.ActivityAddBookBinding
+import com.example.Tachyon.R
+import com.example.Tachyon.databinding.ActivityAddBookBinding
+//import com.example.kokoro.R
+//import com.example.kokoro.databinding.ActivityAddBookBinding
 import com.example.kokoro.model.BookModel
 import com.example.kokoro.model.StoryModel
 import com.example.kokoro.repository.BookRepositoryImpl
@@ -18,6 +20,7 @@ import com.example.kokoro.utils.ImageUtils
 import com.example.kokoro.utils.LoadingUtils
 import com.example.kokoro.viewModel.BookViewModel
 import com.example.kokoro.viewModel.StoryViewModel
+import com.example.tachyon.model.BookModel
 import com.squareup.picasso.Picasso
 import java.text.SimpleDateFormat
 import java.util.Locale

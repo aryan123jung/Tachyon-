@@ -1,4 +1,4 @@
-package com.example.kokoro.repository
+package com.example.tachyon.repository
 
 interface RegisterRepo {
 

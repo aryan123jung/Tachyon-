@@ -7,8 +7,10 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.kokoro.R
-import com.example.kokoro.databinding.ActivityUpdateStoryBinding
+import com.example.Tachyon.R
+import com.example.Tachyon.databinding.ActivityUpdateStoryBinding
+//import com.example.kokoro.R
+//import com.example.kokoro.databinding.ActivityUpdateStoryBinding
 import com.example.kokoro.repository.StoryRepositoryImpl
 import com.example.kokoro.utils.ImageUtils
 import com.example.kokoro.viewModel.StoryViewModel

@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="com.example.kokoro" />
-                  <option name="mobileSdkAppId" value="1:531223240121:android:26998497ff4915d651ea68" />
-                  <option name="projectId" value="kokoro-9c7c2" />
-                  <option name="projectNumber" value="531223240121" />
+                  <option name="appId" value="com.example.Tachyon" />
+                  <option name="mobileSdkAppId" value="1:673166964159:android:d7a915f2eb6ed5290a1d0a" />
+                  <option name="projectId" value="tachyonapp-e9851" />
+                  <option name="projectNumber" value="673166964159" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

@@ -8,11 +8,11 @@ android {
     buildFeatures{
         viewBinding= true
     }
-    namespace = "com.example.kokoro"
+    namespace = "com.example.Tachyon"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.kokoro"
+        applicationId = "com.example.Tachyon"
         minSdk = 26
         targetSdk = 35
         versionCode = 1

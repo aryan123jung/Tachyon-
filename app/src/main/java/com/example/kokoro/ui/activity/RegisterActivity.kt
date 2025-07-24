@@ -7,8 +7,10 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.kokoro.R
-import com.example.kokoro.databinding.ActivityRegisterBinding
+import com.example.Tachyon.R
+import com.example.Tachyon.databinding.ActivityRegisterBinding
+//import com.example.kokoro.R
+//import com.example.kokoro.databinding.ActivityRegisterBinding
 import com.example.kokoro.model.UserModel
 import com.example.kokoro.repository.UserRepositoryImpl
 import com.example.kokoro.utils.LoadingUtils

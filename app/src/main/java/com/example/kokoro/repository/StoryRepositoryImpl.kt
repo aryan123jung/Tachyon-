@@ -1,4 +1,4 @@
-package com.example.kokoro.repository
+package com.example.tachyon.repository
 
 import android.content.Context
 import android.database.Cursor
@@ -9,7 +9,7 @@ import android.provider.OpenableColumns
 import android.util.Log
 import com.cloudinary.Cloudinary
 import com.cloudinary.utils.ObjectUtils
-import com.example.kokoro.model.StoryModel
+import com.example.tachyon.model.StoryModel
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference

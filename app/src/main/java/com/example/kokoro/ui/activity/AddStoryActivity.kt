@@ -1,4 +1,4 @@
-package com.example.kokoro.ui.activity
+package com.example.tachyon.ui.activity
 
 import android.net.Uri
 import android.os.Bundle
@@ -8,13 +8,14 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.kokoro.R
-import com.example.kokoro.databinding.ActivityAddStoryBinding
-import com.example.kokoro.model.StoryModel
-import com.example.kokoro.repository.StoryRepositoryImpl
+import com.example.Tachyon.R
+import com.example.Tachyon.databinding.ActivityAddStoryBinding
+
 import com.example.kokoro.utils.ImageUtils
 import com.example.kokoro.utils.LoadingUtils
 import com.example.kokoro.viewModel.StoryViewModel
+import com.example.tachyon.model.StoryModel
+import com.example.tachyon.repository.StoryRepositoryImpl
 import com.squareup.picasso.Picasso
 
 class AddStoryActivity : AppCompatActivity() {

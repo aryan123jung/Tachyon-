@@ -3,7 +3,7 @@ package com.example.kokoro.utils
 
 import android.app.Activity
 import android.app.AlertDialog
-import com.example.kokoro.R
+import com.example.Tachyon.R
 
 class LoadingUtils(val activity: Activity) {
     lateinit var altertDialog: AlertDialog

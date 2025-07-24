@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "531223240121",
-    "project_id": "kokoro-9c7c2",
-    "storage_bucket": "kokoro-9c7c2.firebasestorage.app"
+    "project_number": "673166964159",
+    "project_id": "tachyonapp-e9851",
+    "storage_bucket": "tachyonapp-e9851.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:531223240121:android:26998497ff4915d651ea68",
+        "mobilesdk_app_id": "1:673166964159:android:d7a915f2eb6ed5290a1d0a",
         "android_client_info": {
-          "package_name": "com.example.kokoro"
+          "package_name": "com.example.Tachyon"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDT4dycg28lrx7DJwP1KneYIIzoiRTv1eg"
+          "current_key": "AIzaSyBPKWFUSSFst3tDs9dcUxqjlyp1mrMT9yA"
         }
       ],
       "services": {

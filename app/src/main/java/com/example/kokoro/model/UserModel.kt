@@ -1,4 +1,4 @@
-package com.example.kokoro.model
+package com.example.tachyon.model
 
 data class UserModel(
     var userId: String = "",

@@ -1,4 +1,4 @@
-package com.example.kokoro.adapter
+package com.example.tachyon.adapter
 
 import android.content.Context
 import android.content.Intent
@@ -10,10 +10,9 @@ import android.widget.ImageView
 import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.kokoro.R
-import com.example.kokoro.model.BookModel
-import com.example.kokoro.ui.activity.UpdateBookActivity
-import com.example.kokoro.ui.activity.UpdateStoryActivity
+import com.example.Tachyon.R
+import com.example.tachyon.ui.activity.BookModel
+import com.example.tachyon.ui.activity.UpdateBookActivity
 import com.squareup.picasso.Callback
 import com.squareup.picasso.Picasso
 import java.lang.Exception

@@ -1,6 +1,6 @@
-package com.example.kokoro.repository
+package com.example.tachyon.repository
 
-import com.example.kokoro.model.UserModel
+import com.example.tachyon.model.UserModel
 
 import com.google.firebase.auth.FirebaseUser
 

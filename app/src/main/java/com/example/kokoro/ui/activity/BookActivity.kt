@@ -1,4 +1,4 @@
-package com.example.kokoro.ui.activity
+package com.example.tachyon.ui.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -10,11 +10,11 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.kokoro.R
-import com.example.kokoro.adapter.BookAdapter
-import com.example.kokoro.databinding.ActivityBookBinding
-import com.example.kokoro.repository.BookRepositoryImpl
+import com.example.Tachyon.databinding.ActivityBookBinding
+import com.example.kokoro.ui.activity.DashboardActivity
 import com.example.kokoro.viewModel.BookViewModel
+import com.example.tachyon.adapter.BookAdapter
+import com.example.tachyon.repository.BookRepositoryImpl
 
 class BookActivity : AppCompatActivity() {
 

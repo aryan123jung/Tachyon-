@@ -1,4 +1,4 @@
-package com.example.kokoro.ui.activity
+package com.example.tachyon.ui.activity
 
 import android.os.Bundle
 import android.util.Log
@@ -7,16 +7,17 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.kokoro.R
-import com.example.kokoro.databinding.ActivityUpdateBookBinding
+import com.example.Tachyon.R
+import com.example.Tachyon.databinding.ActivityUpdateBookBinding
 import com.example.kokoro.repository.BookRepositoryImpl
+//import com.example.kokoro.repository.BookRepositoryImpl
 import com.example.kokoro.utils.ImageUtils
 import com.example.kokoro.viewModel.BookViewModel
 import com.squareup.picasso.Picasso
 
 class UpdateBookActivity : AppCompatActivity() {
 
-    lateinit var binding:ActivityUpdateBookBinding
+    lateinit var binding: ActivityUpdateBookBinding
     lateinit var bookViewModel:BookViewModel
     lateinit var imageUtils: ImageUtils
 
