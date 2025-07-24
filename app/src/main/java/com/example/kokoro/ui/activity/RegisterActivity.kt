@@ -1,4 +1,4 @@
-package com.example.kokoro.ui.activity
+package com.example.tachyon.ui.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,12 +9,10 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.Tachyon.R
 import com.example.Tachyon.databinding.ActivityRegisterBinding
-//import com.example.kokoro.R
-//import com.example.kokoro.databinding.ActivityRegisterBinding
-import com.example.kokoro.model.UserModel
-import com.example.kokoro.repository.UserRepositoryImpl
 import com.example.kokoro.utils.LoadingUtils
 import com.example.kokoro.viewModel.UserViewModel
+import com.example.tachyon.model.UserModel
+import com.example.tachyon.repository.UserRepositoryImpl
 
 class RegisterActivity : AppCompatActivity() {
     lateinit var binding: ActivityRegisterBinding
