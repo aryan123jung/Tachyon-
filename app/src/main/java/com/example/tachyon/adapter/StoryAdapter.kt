@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.ProgressBar
 import android.widget.TextView
+import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.example.tachyon.R
 import com.example.tachyon.model.StoryModel
@@ -78,11 +79,31 @@ class StoryAdapter ( val context: Context,
         }
     }
 
-    fun updateData(stories: List<StoryModel>) {
-        data.clear()
-        data.addAll(stories)
-        notifyDataSetChanged()
+//    fun updateData(stories: List<StoryModel>) {
+//        data.clear()
+//        data.addAll(stories)
+//        notifyDataSetChanged()
+//    }
+fun updateData(newStories: List<StoryModel>) {
+    val diffCallback = object : DiffUtil.Callback() {
+        override fun getOldListSize(): Int = data.size
+        override fun getNewListSize(): Int = newStories.size
+
+        override fun areItemsTheSame(oldItemPosition: Int, newItemPosition: Int): Boolean {
+            return data[oldItemPosition].storyId == newStories[newItemPosition].storyId
+        }
+
+        override fun areContentsTheSame(oldItemPosition: Int, newItemPosition: Int): Boolean {
+            return data[oldItemPosition] == newStories[newItemPosition]
+        }
     }
+
+    val diffResult = DiffUtil.calculateDiff(diffCallback)
+
+    data.clear()
+    data.addAll(newStories)
+    diffResult.dispatchUpdatesTo(this)
+}
 
     fun getStoryId(position: Int) : String{
         return data[position].storyId

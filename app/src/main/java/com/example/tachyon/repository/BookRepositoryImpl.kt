@@ -20,8 +20,8 @@ import java.util.concurrent.Executors
 
 class BookRepositoryImpl:BookRepository {
 
-    val database: FirebaseDatabase = FirebaseDatabase.getInstance()
-    val reference: DatabaseReference = database.reference.child("books")
+    private val database: FirebaseDatabase = FirebaseDatabase.getInstance()
+    private val reference: DatabaseReference = database.reference.child("books")
 
     override fun addBook(bookModel: BookModel, callback: (Boolean, String) -> Unit) {
         val id = reference.push().key.toString()
@@ -71,7 +71,7 @@ class BookRepositoryImpl:BookRepository {
             object: ValueEventListener {
                 override fun onDataChange(snapshot: DataSnapshot) {
                     if (snapshot.exists()){
-                        var model = snapshot.getValue(BookModel::class.java)
+                        val model = snapshot.getValue(BookModel::class.java)
                         callback(model,true,"Book fetched")
                     }
                 }

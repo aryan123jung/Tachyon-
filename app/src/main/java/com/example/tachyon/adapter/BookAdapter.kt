@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.ProgressBar
 import android.widget.TextView
+import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.example.tachyon.R
 import com.example.tachyon.model.BookModel
@@ -46,7 +47,7 @@ class BookAdapter(val context: Context, var data: ArrayList<BookModel>) : Recycl
         holder.sDesc.text = data[position].bookThoughts
 
         // Handle image loading
-        if (!data[position].bookimageUrl.isNullOrEmpty()) {
+        if (data[position].bookimageUrl.isNotEmpty()) {
             Picasso.get().load(data[position].bookimageUrl).into(holder.imageView, object : Callback {
                 override fun onSuccess() {
                     holder.progressBar.visibility = View.GONE
@@ -80,12 +81,41 @@ class BookAdapter(val context: Context, var data: ArrayList<BookModel>) : Recycl
         }
     }
 
+//
+//    fun updateData(books: List<BookModel>) {
+//        data.clear()
+//        data.addAll(books)
+//        notifyDataSetChanged()
+//    }
+fun updateData(newBooks: List<BookModel>) {
+    val diffCallback = object : DiffUtil.Callback() {
+        override fun getOldListSize(): Int = data.size
+        override fun getNewListSize(): Int = newBooks.size
 
-    fun updateData(books: List<BookModel>) {
-        data.clear()
-        data.addAll(books)
-        notifyDataSetChanged()
+        override fun areItemsTheSame(oldItemPosition: Int, newItemPosition: Int): Boolean {
+            return data[oldItemPosition].bookId == newBooks[newItemPosition].bookId
+        }
+
+        override fun areContentsTheSame(oldItemPosition: Int, newItemPosition: Int): Boolean {
+            return data[oldItemPosition] == newBooks[newItemPosition]
+        }
     }
+
+    val diffResult = DiffUtil.calculateDiff(diffCallback)
+
+    data.clear()
+    data.addAll(newBooks)
+    diffResult.dispatchUpdatesTo(this)
+}
+
+//fun updateData(newBooks: List<BookModel>) {
+//    val diffCallback = BookDiffCallback(data, newBooks)
+//    val diffResult = DiffUtil.calculateDiff(diffCallback)
+//
+//    data.clear()
+//    data.addAll(newBooks)
+//    diffResult.dispatchUpdatesTo(this)
+//}
 
     fun getBookId(position: Int): String {
         return data[position].bookId
