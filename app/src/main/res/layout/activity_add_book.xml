@@ -18,7 +18,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/backgroundimage" />
+        app:srcCompat="@drawable/backgroundimagesplash" />
 
     <!-- Gradient Overlay -->
     <View
@@ -43,7 +43,7 @@
         android:shadowDx="2"
         android:shadowDy="2"
         android:shadowRadius="4"
-        android:text="Kokoro's Tale"
+        android:text="Tachyon"
         android:textColor="@color/white"
         android:textSize="25sp"
         android:textStyle="bold"
@@ -52,23 +52,25 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <!-- Book Title Input -->
+
+    <!-- Book Image Browse Button -->
+
     <EditText
         android:id="@+id/bookTitle"
-        android:layout_width="0dp"
-        android:layout_height="50dp"
+        android:layout_width="361dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/rounded_input"
         android:hint="Book Title"
         android:inputType="text"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
-        android:background="@drawable/rounded_input"
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
-        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/logoName2" />
 
-    <!-- Book Image Browse Button -->
     <ImageView
         android:id="@+id/bookImageBrowse"
         android:layout_width="200dp"
@@ -81,12 +83,14 @@
         app:layout_constraintTop_toBottomOf="@+id/bookTitle" />
 
     <!-- Book Genre Input -->
+
+    <!-- Author Input -->
     <TextView
         android:id="@+id/Genre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
         android:text="Genre:"
         android:textColor="@color/white"
         android:textSize="14sp"
@@ -99,24 +103,26 @@
         android:layout_width="259dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="45dp"
         android:background="@drawable/rounded_input"
-        android:textColorHint="@color/white"
         android:hint="Genre"
         android:inputType="text"
         android:padding="5dp"
+        android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toEndOf="@+id/Genre"
         app:layout_constraintTop_toBottomOf="@+id/bookImageBrowse" />
 
-    <!-- Author Input -->
+    <!-- Book Description Input -->
+
     <TextView
         android:id="@+id/Author"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
         android:text="Author:"
         android:textColor="@color/white"
         android:textSize="14sp"
@@ -129,24 +135,24 @@
         android:layout_width="259dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="35dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="45dp"
-        android:hint="Author"
         android:background="@drawable/rounded_input"
-        android:textColorHint="@color/white"
+        android:hint="Author"
         android:inputType="text"
         android:padding="5dp"
+        android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toEndOf="@+id/Author"
         app:layout_constraintTop_toBottomOf="@+id/bookGenre" />
 
-    <!-- Book Description Input -->
     <TextView
         android:id="@+id/Description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:text="Thoughts:"
         android:textColor="@color/white"
         android:textSize="14sp"
@@ -154,32 +160,34 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Author" />
 
+    <!-- Post Story Button -->
+
     <EditText
         android:id="@+id/bookInput"
         android:layout_width="259dp"
         android:layout_height="200dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="47dp"
+        android:background="@drawable/rounded_input"
         android:gravity="top"
         android:hint="Write your thoughts on this book..."
-        android:background="@drawable/rounded_input"
-        android:textColorHint="@color/white"
         android:inputType="textMultiLine"
         android:minHeight="150dp"
         android:padding="12dp"
+        android:textColorHint="@color/white"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
         app:layout_constraintStart_toEndOf="@+id/Description"
         app:layout_constraintTop_toBottomOf="@+id/bookAuthor" />
 
-    <!-- Post Story Button -->
     <Button
         android:id="@+id/submitStoryButton"
         android:layout_width="0dp"
         android:layout_height="45dp"
         android:layout_marginStart="90dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="70dp"
         android:background="@drawable/rounded_button"
         android:elevation="6dp"
