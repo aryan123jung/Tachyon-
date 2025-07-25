@@ -2,7 +2,6 @@ package com.example.tachyon.adapter
 
 import android.content.Context
 import android.content.Intent
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -81,7 +80,7 @@ class BookAdapter(val context: Context, var data: ArrayList<BookModel>) : Recycl
         }
     }
 
-//
+
 //    fun updateData(books: List<BookModel>) {
 //        data.clear()
 //        data.addAll(books)
@@ -108,14 +107,6 @@ fun updateData(newBooks: List<BookModel>) {
     diffResult.dispatchUpdatesTo(this)
 }
 
-//fun updateData(newBooks: List<BookModel>) {
-//    val diffCallback = BookDiffCallback(data, newBooks)
-//    val diffResult = DiffUtil.calculateDiff(diffCallback)
-//
-//    data.clear()
-//    data.addAll(newBooks)
-//    diffResult.dispatchUpdatesTo(this)
-//}
 
     fun getBookId(position: Int): String {
         return data[position].bookId
