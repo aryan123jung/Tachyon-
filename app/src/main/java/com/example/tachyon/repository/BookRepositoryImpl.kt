@@ -110,9 +110,9 @@ class BookRepositoryImpl:BookRepository {
     }
     private val cloudinary = Cloudinary(
             mapOf(
-                "cloud_name" to "dmnnqyjvj",
-                "api_key" to "719664345337452",
-                "api_secret" to "euvxoQyPG_ouM5nhLlZ3L6R5qIo"
+                "cloud_name" to "ddlm4gpfk",
+                "api_key" to "476249442996575",
+                "api_secret" to "ZMsR2wnmhoTJT4E3mCrtBlef6Vo"
             )
     )
 
