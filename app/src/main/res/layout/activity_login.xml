@@ -15,29 +15,9 @@
         android:scaleType="centerCrop"
         app:srcCompat="@drawable/backgroundimage3" />
 
-    <!-- Gradient Overlay -->
 
-    <!-- App Title -->
 
-    <!--    <TextView-->
-<!--        android:id="@+id/logoName"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="64dp"-->
-<!--        android:fontFamily="@font/merienda_bold"-->
-<!--        android:shadowColor="#80000000"-->
-<!--        android:shadowDx="2"-->
-<!--        android:shadowDy="2"-->
-<!--        android:shadowRadius="6"-->
-<!--        android:text="Kokoro's Tale"-->
-<!--        android:textColor="@color/white"-->
-<!--        android:textSize="48sp"-->
-<!--        android:textStyle="bold"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
 
-    <!-- Email Input -->
     <View
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -49,11 +29,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
-    <!-- Password Input -->
 
-    <!-- Forgot Password -->
-
-    <!-- Login Button -->
 
     <EditText
         android:id="@+id/emailLogin"
@@ -95,9 +71,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/emailLogin" />
 
-    <!-- No Account Text -->
 
-    <!-- Register Link -->
 
     <TextView
         android:id="@+id/forgotPasswordLink"
