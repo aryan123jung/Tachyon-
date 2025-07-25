@@ -13,64 +13,75 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        app:srcCompat="@drawable/backgroundimage" />
+        app:srcCompat="@drawable/backgroundimage3" />
 
     <!-- Gradient Overlay -->
+
+    <!-- App Title -->
+
+    <!--    <TextView-->
+<!--        android:id="@+id/logoName"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="64dp"-->
+<!--        android:fontFamily="@font/merienda_bold"-->
+<!--        android:shadowColor="#80000000"-->
+<!--        android:shadowDx="2"-->
+<!--        android:shadowDy="2"-->
+<!--        android:shadowRadius="6"-->
+<!--        android:text="Kokoro's Tale"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="48sp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!-- Email Input -->
     <View
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/gradient_overlay"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
-    <!-- App Title -->
-    <TextView
-        android:id="@+id/logoName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
-        android:fontFamily="@font/merienda_bold"
-        android:shadowColor="#80000000"
-        android:shadowDx="2"
-        android:shadowDy="2"
-        android:shadowRadius="6"
-        android:text="Kokoro's Tale"
-        android:textColor="@color/white"
-        android:textSize="48sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <!-- Password Input -->
 
-    <!-- Email Input -->
+    <!-- Forgot Password -->
+
+    <!-- Login Button -->
+
     <EditText
         android:id="@+id/emailLogin"
         android:layout_width="0dp"
         android:layout_height="50dp"
-        android:layout_marginTop="24dp"
         android:layout_marginStart="15dp"
+        android:layout_marginTop="248dp"
         android:layout_marginEnd="15dp"
+        android:background="@drawable/rounded_input"
         android:hint="Email"
         android:inputType="textEmailAddress"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
-        android:background="@drawable/rounded_input"
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logoName"
-        app:layout_constraintHorizontal_bias="0.5" />
+        android:textColor="@color/white"
 
-    <!-- Password Input -->
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
     <EditText
         android:id="@+id/passwordLogin"
         android:layout_width="0dp"
         android:layout_height="50dp"
-        android:layout_marginTop="12dp"
         android:layout_marginStart="15dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="15dp"
         android:background="@drawable/rounded_input"
         android:hint="Password"
@@ -80,20 +91,20 @@
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/emailLogin" />
 
-    <!-- Forgot Password -->
+    <!-- No Account Text -->
 
-    <!-- Login Button -->
+    <!-- Register Link -->
 
     <TextView
         android:id="@+id/forgotPasswordLink"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="17dp"
-        android:layout_marginEnd="44dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="36dp"
         android:text="Forgot password?"
         android:textColor="@color/white"
         android:textStyle="bold"
@@ -104,30 +115,26 @@
         android:id="@+id/loginBtn"
         android:layout_width="0dp"
         android:layout_height="55dp"
-        android:layout_marginTop="32dp"
         android:layout_marginStart="50dp"
+        android:layout_marginTop="44dp"
         android:layout_marginEnd="50dp"
-        android:text="Login"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:textColor="@color/white"
         android:background="@drawable/rounded_button"
         android:elevation="6dp"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/forgotPasswordLink"
-        app:layout_constraintHorizontal_bias="0.5" />
-
-    <!-- No Account Text -->
-
-    <!-- Register Link -->
+        app:layout_constraintTop_toBottomOf="@+id/forgotPasswordLink" />
 
     <TextView
         android:id="@+id/loginAcc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="104dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="44dp"
         android:text="Don't have an account?"
         android:textColor="@color/white"
         android:textSize="14sp"
@@ -138,8 +145,8 @@
         android:id="@+id/registerLink"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="3dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
         android:text="Sign up"
         android:textColor="@color/accentColor"
         android:textStyle="bold"
