@@ -38,8 +38,8 @@ class RegisterUnitTest {
     }
     @Test
     fun testRegister_Successful() {
-        val email = "test@example.com"
-        val password = "testPassword"
+        val email = "test1@example.com"
+        val password = "test1@example.com"
         var expectedResult = "Initial Value" // Define the initial value
 
         // Mocking task to simulate successful registration

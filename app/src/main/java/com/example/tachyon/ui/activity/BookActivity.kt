@@ -11,7 +11,6 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.tachyon.R
-
 import com.example.tachyon.viewModel.BookViewModel
 import com.example.tachyon.adapter.BookAdapter
 import com.example.tachyon.databinding.ActivityBookBinding

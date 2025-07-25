@@ -31,8 +31,8 @@ class AuthUnitTest {
 
     @Test
     fun testLogin_Successful() {
-        val email = "test@example.com"
-        val password = "testPassword"
+        val email = "test1@example.com"
+        val password = "test1@example.com"
         var actualMessage: String? = null // Stores the callback message
 
         // Mock Firebase Authentication method

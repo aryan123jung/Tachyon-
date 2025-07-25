@@ -22,8 +22,8 @@ class LoginActivityTest {
     @Test
     fun testLoginSuccess() {
         // Input valid email and password
-        onView(withId(R.id.emailLogin)).perform(typeText("test@example.com"))
-        onView(withId(R.id.passwordLogin)).perform(typeText("password123"))
+        onView(withId(R.id.emailLogin)).perform(typeText("test1@example.com"))
+        onView(withId(R.id.passwordLogin)).perform(typeText("test1@example.com"))
 
         closeSoftKeyboard()  // Close the keyboard
 

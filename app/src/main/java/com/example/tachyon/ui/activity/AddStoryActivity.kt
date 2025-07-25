@@ -10,8 +10,6 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.tachyon.R
 import com.example.tachyon.databinding.ActivityAddStoryBinding
-
-
 import com.example.tachyon.utils.ImageUtils
 import com.example.tachyon.utils.LoadingUtils
 import com.example.tachyon.viewModel.StoryViewModel
